@@ -1,6 +1,6 @@
-document.querySelectorAll("") 回傳的Array無法使用forEach或是map等方法，因為回傳陣列繼承的東西不一樣，所以不能用
+document.querySelectorAll("") 回傳的Array無法使用forEach或是map等方法，因回傳陣列繼承的東西不一樣，所以不能用
 
-要可以使用的話方法有兩個，其一是利用取出陣列的length然後跑for迴圈來取出val，另外一個是是擷取陣列方法使用.call使用它
+要可以使用的話方法有兩個，其一是利用取出陣列的length然後跑for迴圈來取出val，另外一個是是擷取陣列方法使用.call使用它
 ```js
 /*
     document.querySelectorAll(".el") 回傳是
@@ -18,7 +18,7 @@ forEach.call(items,function(item){
 })
 ```
 ---
-### 使用document.querySelectorAll 跟 document.getElementsByClassName 的差別
+### 使用document.querySelectorAll 跟 document.getElementsByClassName的差別
 Html
 ```html
 <ul id="el">
