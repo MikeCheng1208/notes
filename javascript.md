@@ -32,7 +32,7 @@ JavaScript
 ```js
     var item = document.querySelectorAll(".feature")
     console.log(item.length)
-    //回傳 -> 3
+    //回傳 -> 3
 
     var ulSelect = document.querySelector("#el")
     var liCreate = document.createElement("li")
