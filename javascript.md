@@ -48,13 +48,13 @@ JavaScript
         </ul>
     */
     console.log(item.length)
-    //回傳 -> 3
+    //回傳 -> 3
 ```
 - 使用 getElementsByClassName -> 返回的是現場的結果
 ```js
     var item = document.getElementsByClassName("feature")
     console.log(item.length)
-    //回傳 -> 3
+    //回傳 -> 3
 
     var ulSelect = document.querySelector("#el")
     var liCreate = document.createElement("li")
@@ -71,7 +71,7 @@ JavaScript
         </ul>
     */
     console.log(item.length)
-    //回傳 -> 4
+    //回傳 -> 4
 ```
 
 ---
